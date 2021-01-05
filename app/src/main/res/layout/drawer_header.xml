@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:id="@+id/imagelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="18dp">
+
+        <ImageView
+            android:id="@+id/imgDrawerUserImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/foodonway"
+            android:contentDescription="@string/drawer_user_photo"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:padding="15dp"
+                android:layout_toEndOf="@+id/imagelayout">
+            <TextView
+                android:id="@+id/txtDrawerUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drawer_username"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtDrawerPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDrawerUsername"
+                android:text="@string/drawer_userphone"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                />
+            </RelativeLayout>
+    </RelativeLayout>

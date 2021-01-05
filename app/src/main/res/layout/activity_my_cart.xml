@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaurantDetailsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <RelativeLayout
+        android:id="@+id/RLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/txtOrderingRestaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_are_ordering_from"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/txtCartRestaurantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant_name"
+            android:layout_toEndOf="@+id/txtOrderingRestaurant"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginStart="2dp"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/RLName"
+        android:background="#000000" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerOrderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnPlaceOrder"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/view"/>
+
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/place_order"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

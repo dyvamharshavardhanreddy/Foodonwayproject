@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FAQsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:padding="3dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="@string/q_1_if_i_have_a_question_or_a_problem_what_do_i_do"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/a_1_call_us_or_email_us_we_only_succeed_when_you_do_we_are_here_to_help_and_truly_enjoy_what_we_do_email_us_at_support_foodrunner_com_or_call_us_directly_at_123_456_7890"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#939393"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:padding="3dp"
+        android:layout_below="@+id/q1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="@string/q_2_are_there_new_features_coming"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/a_2_always_we_continually_update_and_add_new_features_we_will_keep_you_informed_through_our_web_site_and_newsletter_as_new_features_are_available"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#939393"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q2"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_3_can_i_place_order_on_call"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_3_sorry_we_don_t_accept_orders_on_call_however_you_can_call_us_on_91_9012345678_for_any_help_related_to_placing_order"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q3"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_4_when_i_have_to_pay"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_4_you_will_have_to_pay_at_the_time_of_delivery_as_per_the_payment_details_we_send_to_you_via_email"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q4"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_5_can_i_edit_my_order"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_5_your_order_can_be_edited_before_it_reaches_the_restaurant_you_could_contact_customer_support_team_via_chat_or_call_to_do_so_once_order_is_placed_and_restaurant_starts_preparing_your_food_you_may_not_edit_its_contents"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q5"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_6_is_there_a_minimum_order_value"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_6_we_have_no_minimum_order_value_and_you_can_order_for_any_amount"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q6"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_7_do_you_charge_for_delivery"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_7_delivery_fee_varies_from_city_to_city_and_is_applicable_if_order_value_is_below_a_certain_amount_additionally_certain_restaurants_might_have_fixed_delivery_fees"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_8_what_are_your_delivery_hours"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_8_our_delivery_hours_vary_for_different_locations_and_depends_on_availability_of_supply_from_restaurant_partners"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q8"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_9_did_not_receive_otp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_9_please_check_if_your_app_is_due_for_an_update_and_also_check_your_previous_mails_for_otp_an_otp_is_valid_for_24_hrs_so_only_one_otp_is_sent_in_24hrs_if_not_please_share_the_details_via_support_foodrunner_in"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:layout_below="@+id/q9"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/q_10_is_single_order_from_many_restaurants_possible"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_10_we_currently_do_not_support_this_functionality_however_you_can_place_orders_for_individual_items_from_different_restaurants"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#939393"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

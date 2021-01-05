@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.MyCartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent">
+            <View
+                android:layout_width="18dp"
+                android:layout_height="5dp"
+                android:layout_centerInParent="true"
+                android:background="@color/colorPrimary"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtOrderMenuItem"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuitem"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/rs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rs"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/txtOrderMenuPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_100"
+                android:layout_toEndOf="@+id/rs"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:textColor="#000"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
